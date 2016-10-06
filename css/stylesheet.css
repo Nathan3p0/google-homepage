@@ -1,0 +1,101 @@
+/*******************************
+HEADER AND FOOTER POSITIONING
+******************************/
+header {
+    position: fixed;
+    width:100%;
+    top: 0;
+    clear: both;
+}
+footer {
+    position: fixed;
+    background:#EDEDED;
+    width:100%;
+    bottom: 0;
+}
+/*******************************
+NAVIGATION STYLING
+******************************/
+nav.topnav {
+  float: right;
+}
+img.icon {
+  width: 20px;
+}
+img.icon:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img.profile_pic {
+  width: 35px;
+  border-radius: 100%;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+ul > li > a {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #858585;
+  font-size: .75em;
+  margin-left: -15px;
+}
+ul > li> a:hover {
+  text-decoration: underline;
+}
+li.right {
+  float: right;
+  margin-right: 15px;
+}
+
+/*****************************
+SEARCH BAR & GOOGLE lOGO
+*****************************/
+/*section {
+  margin: 250px auto;
+  display: table;
+}*/
+#search {
+  max-width: 900px;
+  margin: auto;
+}
+.gologo {
+  display: block;
+  margin: auto;
+  padding: 250px 0 30px 0;
+}
+form {
+  padding: 20px;
+  width: 470px;
+  display: block;
+  margin: 0 auto;
+}
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #E8E8E8;
+  border: none;
+  color: #7A7A7A;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: .8em;
+  padding: 12px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 15px 2px;
+  border-radius: 2px;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+  box-shadow: 0px 2px 3px #7f7f7f;
+}
+.buttons {
+  text-align: center;
+}
